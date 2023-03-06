@@ -58,7 +58,7 @@ public class IfElse {
 
         String name = "Zina";
         if (name.equals("John")) {
-            System.out.println("Hello Jonh!");
+            System.out.println("Hello John!");
         } else if (name.equals("Zina")) {
             System.out.println("You are not welcome");
         } else {
@@ -88,7 +88,7 @@ public class IfElse {
                 System.out.println("This is autumn");
                 break;
             default:
-                throw new IllegalStateException("Incorect month value: " + currentMonth);
+                throw new IllegalStateException("Incorrect month value: " + currentMonth);
         }
 
         // IF student1 = "John" and student2 = "Max"
@@ -97,7 +97,7 @@ public class IfElse {
 
         String student1 = "John";
         String student2 = "Anna";
-        if (student1.equals("John")) && student2.equals("Max")) {
+        if (student1.equals("John") && student2.equals("Max")) {
             System.out.println("They will work together");
         }
     }
